@@ -1,0 +1,99 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+}
+
+#profile-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Centering utility */
+.text-center {
+  text-align: center;
+}
+
+/* Header styles */
+#header .main-header {
+  font-family: 'Pacifico', cursive;
+  color: #ff6363;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+#header .img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Section styles */
+.section {
+  margin: 40px 0;
+}
+
+/* Introduction */
+#introduction p {
+  margin-bottom: 20px;
+}
+
+#introduction .btn {
+  display: inline-block;
+  background-color: #ff6363;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#introduction .btn:hover {
+  background-color: #ff0000;
+}
+
+/* Image styling */
+.full-width {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Footer styles */
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline {
+  list-style: none;
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+}
+
+.list-inline > li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.list-inline a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.list-inline a:hover {
+  color: #ff6363;
+}
